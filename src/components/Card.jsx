@@ -7,7 +7,6 @@ export default function Card({ pokemon, onClick }) {
 
   return (
     <article class="card" onClick={onClick}>
-      <h1>{pokemon}</h1>
       <img src={pokemonAPI.sprites.front_default} alt="" />
     </article>
   );
