@@ -1,0 +1,50 @@
+export const pokemon = [
+  {
+    id: 0,
+    name: "pikachu",
+  },
+  {
+    id: 1,
+    name: "bulbasaur",
+  },
+  {
+    id: 2,
+    name: "squirtle",
+  },
+  {
+    id: 3,
+    name: "charmander",
+  },
+  {
+    id: 4,
+    name: "ditto",
+  },
+  {
+    id: 5,
+    name: "meowth",
+  },
+  {
+    id: 6,
+    name: "togepi",
+  },
+  {
+    id: 7,
+    name: "snorlax",
+  },
+  {
+    id: 8,
+    name: "ekans",
+  },
+  {
+    id: 9,
+    name: "koffing",
+  },
+  {
+    id: 10,
+    name: "mew",
+  },
+  {
+    id: 11,
+    name: "eevee",
+  },
+];

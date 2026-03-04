@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 32px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #fff;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  border-radius: 8px;
+}
+
+.card:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card:active {
+  transform: scale(0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) inset;
+}
+
+.card img {
+  min-width: 300px;
+}
+
+@media (prefers-color-scheme: light) {
+  .card {
+    border: 1px solid #213547;
+  }
+
+  .card:hover {
+    background-color: #213547;
+  }
+}
